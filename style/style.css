@@ -1,0 +1,459 @@
+body {
+
+    width:100%;
+    height: 934px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(99.89deg, #3625AF 0%, #C46BD5 98.82%);
+}
+/*Шапка*/
+.main-header {
+/* justify-content: space-between; */
+
+}
+.main-nav {
+    /* width: 1507px; */
+    display: flex;
+    justify-content:space-between;
+        margin-bottom: 97px;
+}
+.img-logo {
+    width: 163px;
+    height: 33px;
+    padding-top: 34px;
+    padding-left: 40px;
+}
+.nav-item {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+li {
+    list-style: none;
+}
+.nav-items a  {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-right: 39px; 
+    text-decoration: none;
+}
+.menu-item {
+    margin-top: 13px;
+}
+.nav-items {
+    list-style: none;
+    padding-bottom: 13px;
+   
+}
+.button-1 {
+    display: block;
+    margin-top: 27px;
+    margin-right: 216px;
+    width: 246px;
+}
+.re-call {   
+    height: 60px;
+    width: 246px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #302594;
+    box-shadow: 0px 22px 22px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.re-call {
+    text-align: center;
+}
+.re-call:hover {
+    background: #4636d8;
+}
+.menu-item {
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 19px;
+    display: grid;
+    width:125px; 
+    height: 154px;
+    list-style: none;  
+    background: #FFFFFF;
+    border-radius: 7px; 
+    display: none;
+    margin-bottom: 13px;
+}
+.menu-item a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #5C39BA;
+    text-decoration: none;
+}
+.menu-item li {
+    margin-bottom: 12px;
+}
+.menu-item li:last-child {
+    margin-bottom: 7px;
+}
+.nav-items:hover > ul {
+    display: block;
+}
+
+/*Main*/
+.main-section {
+    display: flex;
+    
+}
+.main-container {
+    margin-top: 0;
+    margin-left: 120px;
+}
+.main-container h1 {
+    margin-top: 0;
+    width: 570px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    color: #FFFFFF;
+}
+.promo-text {
+    width: 332px;
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.main-container hr {
+   margin-left: 0;
+   margin-bottom: 67px;
+}
+
+.warranty {
+    width: 451px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.warranty-1  {
+    width: 154px;
+    display: flex;
+    margin-right: 67px;
+}
+.warranty p {
+    width: 139px;
+    margin-top: 0;
+    margin-left: 16px; 
+    margin-bottom: 35px;
+    margin-right: 67px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+   
+}
+.warranty-1 img {
+    width: 44px;
+    height: 36px;
+}
+.price {
+  
+  background-color: white;
+  width: 508px;
+  /* height: 471px; */
+  border-radius: 10px;
+}
+.price h2 {
+    width: 268px;
+    margin: 30px 210px  35px 30px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+}
+.price p {
+    display: flex;
+    justify-content: space-between;
+    margin-top:  0;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+.metre {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-transform: lowercase;
+}
+input {
+    margin: 0 30px 24px 30px;
+    width: 448px;
+   
+}
+
+.type-house-container  {
+    display: flex;
+}
+.type-house-container p {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 35px;
+    padding: 0;
+    width: 71px;
+    height: 32px;
+}
+.house-list {
+    display: flex;
+    gap: 50px;
+}
+.house-list-item > p {
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.23px;
+    text-align: left;                       
+
+}
+.btn-list {
+    border: none;
+    background-image: url(..//img/radio-btn.png);
+    width: 30px;
+    height: 30px;
+}
+.btn-list:focus{
+    background-image: url(..//img/radio-btn-active.png);
+    width: 30px;
+    height: 30px;
+}
+.rooms-container {
+    margin-bottom: 35px;
+}
+.rooms-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+} 
+.rooms-list-item > p {
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+    font-size: 14px;
+}
+.send { 
+    height: 60px;
+    width: 185px;
+    height: 60px;
+    background: #302594;
+    box-shadow: 0px 22px 22px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button-2 { 
+    margin: 0 auto;
+    width: 185px;
+    margin-bottom: 30px;
+}
+
+.send p {
+    margin-left: 46px;
+    width: 93px;
+    text-align: center;
+}
+.send:hover {
+    background: #4636d8;
+ }
+.foto {
+    position: absolute;
+    left: 855px;
+    top: 160px;
+    border-radius: 150px 0px 0px 0px;
+    z-index: -1;
+}
+
+@media (max-width: 1300px){
+     background: #000;
+    }
+    .main-nav > ul{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .button-1 {
+     
+    }
+    .re-call {   
+        height: 60px;
+        width: 200px;
+       
+    }
+
+    /*Main*/
+    .main-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-container {
+        margin-top: 0;
+        margin-left:    180px;
+    }
+    .main-container h1 {
+        width: 100%;
+        font-size: 36px;
+    }
+
+
+.price {
+  
+  background-color: white;
+  width: 508px;
+  margin-left: 160px;
+  border-radius: 10px;
+}
+
+.foto {
+    position: relative;
+    left: 290px;
+    top: -600px;
+    border-radius: 150px 0px 0px 0px;
+    z-index: -1;
+}
+}
+@media (max-width: 600px){
+    .img-logo {
+        padding-left: 20px;
+        width: 70px;
+    }
+    .main-nav{
+        flex-wrap: wrap;
+    }
+    .button-1 {
+       margin: 0 auto;
+       margin-left: 30px;
+    }
+    .re-call {
+        padding-top: 3px;
+        width: 100px;
+        line-height: 22px;
+        font-size: 12px;
+    }
+  /*Main*/
+  .main-section {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .main-container {
+        margin-left: 10px;
+        /* margin: 0 auto; */
+    }
+    .main-container > h1 {
+       width: 290px;
+       font-size: 44px ;
+    }
+    .warranty-1  {
+        display: flex;
+        margin-right: 10px;
+    }
+    
+    .promo-text {
+        width: 290px;
+        margin-top: 0;
+        margin-bottom: 6px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    }    
+
+    .price {
+
+    background-color: white;
+    width: 300px;
+    margin-left: 10px;
+    border-radius: 10px;
+    }
+    .price h2 {
+          width: 268px;
+          margin: 30px 210px  35px 30px;
+          font-weight: 600;
+          font-size: 25px;
+          line-height: 25px;
+          color: #000000;
+      }
+      .price p {
+          margin-left: 10px;
+         
+      }
+      input {
+          /* margin: 0 30px 24px 30px; */
+          width: 230px;
+         
+      }
+      
+      .type-house-container  {
+        display: flex;
+        gap: 10px;
+      }
+      .house-list {
+        flex-direction: column;
+        margin-left: 45px;
+        /* margin-top: 10px; */
+        padding: 0;
+        gap: 0px;
+
+      }
+      .rooms-container {
+          margin-bottom: 35px;
+      }
+      .rooms-list {
+          display: flex;
+          justify-content: space-between;
+         flex-direction:column ;
+          margin-top: 10px;
+      } 
+      .rooms-list-item > p {
+          position: relative;
+          bottom: 27px;
+          left: 30px;
+          font-size: 14px;
+          align-items: center;
+      } 
+      .send p {
+          margin-left: 46px;
+          width: 93px;
+          text-align: center;
+      }
+      
+      .foto {
+          position: relative;
+          left: -290px;
+          top: -460px;
+          border-radius: 0px 0px 0px 0px;
+          z-index: -1;
+      }
+}
